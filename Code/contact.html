@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ELITE EAT - Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body> 
+
+	<div class="container">
+
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="myheader">
+					<div class="row myheader-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="mysite-logo" /> 
+							<div class="mysite-text-box">
+								<h1 class="mysite-title">ELITE EAT</h1>
+								<h6 class="mysite-description">new restaurant</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 mynav">
+							<ul class="mynav-ul">
+								<li class="mynav-li"><a href="index.html" class="mynav-link">Home</a></li>
+								<li class="mynav-li"><a href="about.html" class="mynav-link">About</a></li>
+								<li class="mynav-li"><a href="contact.html" class="mynav-link active">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row mywelcome-section">
+				<h2 class="col-12 text-center mysection-title">Contact Page</h2>
+				<p class="col-12 text-center">CONNECT WITH US</p>
+			</header>
+
+			<div class="mycontainer-inner-2 mycontact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="" method="POST" class="mycontact-form">
+					        <div class="form-group">
+					          <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+					        </div>
+					        
+					        <div class="form-group">
+					          <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+					        </div>
+				
+					        <div class="form-group">
+					          <textarea rows="5" name="message" class="form-control" placeholder="Message" required=""></textarea>
+					        </div>
+					
+					        <div class="form-group myd-flex">
+					          <button type="submit" class="mybtn mybtn-success mybtn-right">
+					            Send
+					          </button>
+					        </div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<div class="myaddress-box">
+							<h4 class="myinfo-title mytext-success">Our Address</h4>
+							<address>
+								180 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus 10550
+							</address>
+							<a href="tel:080-090-0110" class="mycontact-link">
+								<i class="fas fa-phone mycontact-icon"></i>080-090-0110
+							</a>
+							<a href="mailto:info@company.co" class="mycontact-link">
+								<i class="fas fa-envelope mycontact-icon"></i>info@company.co
+							</a>
+							<div class="mycontact-social">
+								<a href="https://fb.com/templatemo" class="mysocial-link"><i class="fab fa-facebook mysocial-icon"></i></a>
+								<a href="#" class="mysocial-link"><i class="fab fa-twitter mysocial-icon"></i></a>
+								<a href="#" class="mysocial-link"><i class="fab fa-instagram mysocial-icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+
+			
+			<div class="mycontainer-inner-2 myinfo-section">
+				<div class="row">
+				
+					<div class="col-12 myfaq">
+						<h2 class="text-center mysection-title">FAQs</h2>
+						<p class="text-center">ASK</p>
+						<div class="myaccordion">
+							<button class="accordion">1. Fusce eu lorem et dui #09C maximus varius?</button>
+							<div class="panel">
+							  <p>#666 Duis blandit purus vel nenenatis rutrum. Pellentesque pellentesque tindicunt lorem, ac egestas massa sollicitudin vel. Nam scelerisque vulputate quam mollis pretium. Morbi condimentum volutpat.</p>
+							</div>
+							
+							<button class="accordion">2. Vestibulum #999 ante ipsum primis in faucibus orci?</button>
+							<div class="panel">
+							  <p>Mauris euismod odio at commodo rhoncus. Maecenas nec interdum purus, sed auctor est. Sed eleifend urna nec diam consectetur, a aliquet turpis facilisis. Integer est sapien, sagittis vel massa vel, interdum euismod erat. Aenean sollicitudin nisi neque, efficitur posuere urna rutrum porta.</p>
+							</div>
+							
+							<button class="accordion">3. Can I redistribute this template as a ZIP file?</button>
+							<div class="panel">
+							  <p>Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a href="https://templatemo.com/contact">contact TemplateMo</a> for additional permissions about our templates. Thank you.</p>
+							</div>
+							
+							<button class="accordion">4. Ut ac erat sit amet neque efficitur faucibus et in lectus?</button>
+							<div class="panel">
+								<p>Vivamus viverra pretium ultricies. Praesent feugiat, sapien vitae blandit efficitur, sem nulla venenatis nunc, vel maximus ligula sem a sem. Pellentesque ligula ex, facilisis ac libero a, blandit ullamcorper enim.</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="myfooter text-center">
+			<p>Copyright &copy; 2024 ELITE EAT 
+            
+           </p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
